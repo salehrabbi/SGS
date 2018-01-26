@@ -1,2 +1,12 @@
+/*================ Universal Code ================*/
 body {
   font-family: 'Ubuntu', sans-serif; }
+
+.container {
+  max-width: 1040px; }
+
+/*================ Header ================*/
+.logo {
+  display: inline-block;
+  padding-top: 33px;
+  padding-bottom: 20px; }
