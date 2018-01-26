@@ -6,6 +6,7 @@ $t: 'TeX Gyre Adventor';
 body {
     font-family: 'Ubuntu', sans-serif;
     color: #000;
+    font-weight: 300;
 }
 
 .container {
@@ -14,6 +15,20 @@ body {
 
 .relative {
     position: relative;
+}
+
+.img-responsive {
+    display: initial;
+}
+
+.head {
+    h2 {
+        font-family: $t;
+        font-size: 47px;
+        margin: 0;
+        color: #102f46;
+        text-align: center;
+    }
 }
 
 /*================ Header ================*/
@@ -65,14 +80,39 @@ body {
         right: 0;
     }
 }
+
 /*================ Banner bottom ================*/
-.banner-bootom{
-    h2{
+
+.banner-bootom {
+    h2 {
         font-size: 34px;
         line-height: 1.29;
         color: #0c3a55;
         word-break: break-all;
         margin: 0;
         padding: 75px 0;
+    }
+}
+
+/*================ Service ================*/
+.service{
+    padding-bottom: 45px;
+    padding-top: 85px;
+    .head{
+        margin-bottom: 45px;
+    }
+    .content{
+        color: #276c6a;
+        min-height: 184px;
+        margin: 45px 0;
+        h3{
+            margin: 0;
+            font-size: 29px;
+            margin: 22px 0 0;
+        }
+        p{
+            margin: 0;
+            font-size: 20px;
+        }
     }
 }
