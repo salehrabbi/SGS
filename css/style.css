@@ -88,3 +88,26 @@ body {
     .service .content p {
       margin: 0;
       font-size: 20px; }
+
+/*================ Step-work ================*/
+.step-work {
+  padding: 90px 0; }
+  .step-work .head {
+    color: #000; }
+  .step-work .content {
+    margin-top: 50px; }
+    .step-work .content .img {
+      height: 104px;
+      position: relative;
+      margin-bottom: 8px; }
+      .step-work .content .img img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto; }
+    .step-work .content h3 {
+      margin: 0;
+      text-align: center;
+      font-size: 30px;
+      line-height: 1.27; }
