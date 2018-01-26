@@ -50,3 +50,12 @@ body {
     position: absolute;
     bottom: 0;
     right: 0; }
+
+/*================ Banner bottom ================*/
+.banner-bootom h2 {
+  font-size: 34px;
+  line-height: 1.29;
+  color: #0c3a55;
+  word-break: break-all;
+  margin: 0;
+  padding: 75px 0; }
