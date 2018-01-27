@@ -190,6 +190,61 @@ body {
     }
 }
 
+/*================ Video ================*/
+
+.video {
+    background: url(../images/video-bg.png) #2b958a no-repeat;
+    background-position: 0 -47px;
+    background-size: cover;
+    h2 {
+        margin: 0;
+        font-size: 50px;
+        line-height: 1.2;
+        color: #a5bbbb;
+    }
+    .flex {
+        display: flex;
+        min-height: 564px;
+        align-items: center;
+    }
+    .play {
+        background: url(../images/play.png);
+        background-size: 100% 100%;
+        width: 224px;
+        height: 224px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+}
+
+.YouTubePopUp-Content {
+    max-width: 100%;
+    width: 79vw !important;
+    height: 79vh !important;
+    margin-top: 11vh;
+}
+
+.YouTubePopUp-Content iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.YouTubePopUp-Close {
+    z-index: 999;
+    width: 1.76vw;
+    height: 4vh;
+    bottom: auto;
+    right: -2vw;
+}
+
 /*================ Service ================*/
 
 .service {
