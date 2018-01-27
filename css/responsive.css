@@ -1,0 +1,95 @@
+@media (max-width: 991px) {
+  .service .content {
+    margin: 15px 0; }
+
+  .service .content h3 {
+    font-size: 23px;
+    margin: 22px 0 0; }
+
+  .service .content p {
+    font-size: 16px; }
+
+  .step-work .content br {
+    display: none; }
+  .step-work .content h3 {
+    font-size: 25px; }
+
+  .main-footer .list {
+    margin-bottom: 30px; }
+
+  .reviwes .container::before {
+    display: none; }
+
+  .video .play {
+    width: 140px;
+    height: 140px; }
+
+  .banner .women-pic {
+    width: 400px; }
+
+  .video {
+    background-position: 0; }
+
+  .video .flex {
+    min-height: 463px; } }
+@media (max-width: 767px) {
+  .banner .women-pic {
+    display: none; }
+
+  .banner-bootom h2 {
+    font-size: 25px;
+    word-break: keep-all; }
+
+  .video h2 {
+    font-size: 33px; }
+
+  .video .flex {
+    min-height: 400px; }
+
+  .head h2 {
+    font-size: 40px; }
+
+  .reviwes .item p {
+    font-size: 22px; }
+
+  .logo-wraper {
+    position: absolute; } }
+@media (max-width: 575px) {
+  .banner .heading h1 {
+    font: 34px/1.25 "TeX Gyre Adventor"; }
+
+  .banner .heading h2 {
+    font: 700 60px/0.83 "TeX Gyre Adventor"; }
+
+  .banner .container {
+    min-height: 385px; }
+
+  .banner-bootom h2 {
+    font-size: 20px;
+    padding: 35px 0; }
+
+  .service {
+    padding-top: 45px; }
+
+  .reviwes {
+    padding: 50px 0 80px;
+    background-position: center; }
+
+  .step-work {
+    padding: 50px 0; }
+
+  .reviwes .item p {
+    font-size: 18px; }
+
+  .video .flex {
+    display: block; }
+
+  .video h2 {
+    font-size: 33px;
+    margin-top: 52px; }
+
+  .video .play {
+    top: 38%; }
+
+  .video {
+    background-position: center; } }

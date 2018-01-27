@@ -12,6 +12,6 @@ $(document).ready(function () {
 
 jQuery(function () {
     jQuery("a.play").YouTubePopUp({
-        autoplay: 0
+        autoplay: 1
     }); // Disable autoplay
 });

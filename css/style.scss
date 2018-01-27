@@ -115,6 +115,11 @@ body {
 .sgs-responsive-menu .slicknav_menu {
     background: none;
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.slicknav_nav {
+    padding-top: 15px;
 }
 
 .sgs-responsive-menu .slicknav_nav a {
@@ -239,8 +244,6 @@ body {
 
 .YouTubePopUp-Close {
     z-index: 999;
-    width: 1.76vw;
-    height: 4vh;
     bottom: auto;
     right: -2vw;
 }
