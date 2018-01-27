@@ -1,46 +1,57 @@
 /*================ Universal Code ================*/
+
 body {
-  font-family: 'Ubuntu', sans-serif;
-  color: #000;
-  font-weight: 300; }
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    font-weight: 300;
+}
 
 .container {
-  max-width: 1040px; }
+    max-width: 1040px;
+}
 
 .relative {
-  position: relative; }
+    position: relative;
+}
 
 .no-padding {
-  padding: 0; }
+    padding: 0;
+}
 
 .img-responsive {
-  display: initial; }
+    display: initial;
+}
 
 .head h2 {
-  font-family: "TeX Gyre Adventor";
-  font-size: 47px;
-  margin: 0;
-  color: #102f46;
-  text-align: center; }
+    font-family: "TeX Gyre Adventor";
+    font-size: 47px;
+    margin: 0;
+    color: #102f46;
+    text-align: center;
+}
 
 /*================ Header ================*/
-.logo {
-  display: inline-block;
-  padding-top: 33px;
-  padding-bottom: 20px; }
 
-/*Mosharaf Css Start*/
+.logo {
+    display: inline-block;
+    padding-top: 33px;
+    padding-bottom: 20px;
+}
+
+/*=======================Menu Css Start========================*/
 
 .main-menu > ul {
     list-style: outside none none;
     margin: 0;
     padding: 0;
 }
+
 .main-menu li {
     display: inline-block;
     margin-right: 30px;
     position: relative;
 }
+
 .main-menu a {
     color: #0c3a55;
     display: block;
@@ -50,91 +61,104 @@ body {
     padding-bottom: 27px;
     padding-top: 33px;
     text-decoration: none;
+    -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
 }
-.main-menu a:hover{
-    color:#AC9A53;
-}
-.main-menu li ul {
-  background: #ffffff none repeat scroll 0 0;
-  margin: 0;
-  padding: 5px 20px;
-  position: absolute;
-  top: 115px;
-  width: 250px;
-  z-index: 10;
-  transition: 0.5s all ease;
-  opacity: 0;
-  visibility: hidden;
-}
-.main-menu li:hover ul{
-  opacity: 1;
-  visibility: visible;
-  top:89px;
-}
-.main-menu li ul li{
-    margin:0;
-    display: block;
-}
-.main-menu li ul li a{
-    padding:10px 0;
+
+.main-menu a:hover {
+    color: #AC9A53;
 }
 
+.main-menu li ul {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 0;
+    padding: 5px 20px;
+    position: absolute;
+    top: 115px;
+    width: 250px;
+    z-index: 10;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 89px;
+}
+
+.main-menu li ul li {
+    margin: 0;
+    display: block;
+}
+
+.main-menu li ul li a {
+    padding: 10px 0;
+}
 
 /*Responsive Menu*/
 
-.sgs-responsive-menu{
+.sgs-responsive-menu {
     display: block;
-} 
-.main-menu{
+}
+
+.main-menu {
     display: none;
 }
-.sgs-responsive-menu .slicknav_menu{
+
+.sgs-responsive-menu .slicknav_menu {
     background: none;
-    padding-top:30px;
-}
-.sgs-responsive-menu .slicknav_nav a{
-    color:#0c3a55
+    padding-top: 30px;
 }
 
-@media (min-width: 768px){
+.sgs-responsive-menu .slicknav_nav a {
+    color: #0c3a55;
+}
 
-    .sgs-responsive-menu{
+@media (min-width: 768px) {
+    .sgs-responsive-menu {
         display: none;
     }
-    .main-menu{
+
+    .main-menu {
         display: block;
     }
 }
 
-
-
-
-/*Mosharaf Css Start End*/
-
 /*================ Banner ================*/
+
 .banner {
-  background: #e2bc3b; }
-  .banner .container {
+    background: #e2bc3b;
+}
+
+.banner .container {
     min-height: 552px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .banner .heading h1 {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.banner .heading h1 {
     color: #fff;
     font: 48px/1.25 "TeX Gyre Adventor";
-    margin: 0; }
-  .banner .heading h2 {
+    margin: 0;
+}
+
+.banner .heading h2 {
     font: 700 87px/0.83 "TeX Gyre Adventor";
     color: #0c3a55;
     margin: 0;
     text-transform: uppercase;
     margin-top: 12px;
-    margin-bottom: 44px; }
-  .banner .heading a.button {
+    margin-bottom: 44px;
+}
+
+.banner .heading a.button {
     display: inline-block;
     font: 30px "Ubuntu", sans-serif;
     color: #0c3a55;
@@ -142,108 +166,157 @@ body {
     border-radius: 20px;
     text-decoration: none;
     padding: 8px 45px;
-    border: none; }
-  .banner .women-pic {
+    border: none;
+}
+
+.banner .women-pic {
     position: absolute;
     bottom: 0;
-    right: 0; }
+    right: 0;
+}
 
 /*================ Banner bottom ================*/
+
 .banner-bootom h2 {
-  font-size: 34px;
-  line-height: 1.29;
-  color: #0c3a55;
-  word-break: break-all;
-  margin: 0;
-  padding: 75px 0; }
+    font-size: 34px;
+    line-height: 1.29;
+    color: #0c3a55;
+    word-break: break-all;
+    margin: 0;
+    padding: 75px 0;
+}
 
 /*================ Service ================*/
+
 .service {
-  padding-bottom: 45px;
-  padding-top: 85px; }
-  .service .head {
-    margin-bottom: 45px; }
-  .service .content {
+    padding-bottom: 45px;
+    padding-top: 85px;
+}
+
+.service .head {
+    margin-bottom: 45px;
+}
+
+.service .content {
     color: #276c6a;
     min-height: 184px;
-    margin: 45px 0; }
-    .service .content .img {
-      height: 118px;
-      position: relative; }
-      .service .content .img img {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto; }
-    .service .content h3 {
-      margin: 0;
-      font-size: 29px;
-      margin: 22px 0 0; }
-    .service .content p {
-      margin: 0;
-      font-size: 20px; }
+    margin: 45px 0;
+}
+
+.service .content .img {
+    height: 118px;
+    position: relative;
+}
+
+.service .content .img img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.service .content h3 {
+    margin: 0;
+    font-size: 29px;
+    margin: 22px 0 0;
+}
+
+.service .content p {
+    margin: 0;
+    font-size: 20px;
+}
 
 /*================ Step-work ================*/
+
 .step-work {
-  padding: 90px 0; }
-  .step-work .head {
-    color: #000; }
-  .step-work .content {
-    margin-top: 50px; }
-    .step-work .content .img {
-      height: 104px;
-      position: relative;
-      margin-bottom: 8px; }
-      .step-work .content .img img {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto; }
-    .step-work .content h3 {
-      margin: 0;
-      text-align: center;
-      font-size: 30px;
-      line-height: 1.27; }
+    padding: 90px 0;
+}
+
+.step-work .head {
+    color: #000;
+}
+
+.step-work .content {
+    margin-top: 50px;
+}
+
+.step-work .content .img {
+    height: 104px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.step-work .content .img img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.step-work .content h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.27;
+}
 
 /*================ Footer ================*/
+
 .main-footer {
-  background: #276b68;
-  font-size: 16px;
-  color: #bfbcbc;
-  padding-top: 45px; }
-  .main-footer .content {
+    background: #276b68;
+    font-size: 16px;
+    color: #bfbcbc;
+    padding-top: 45px;
+}
+
+.main-footer .content {
     min-height: 103px;
-    margin-bottom: 25px; }
-  .main-footer h4 {
+    margin-bottom: 25px;
+}
+
+.main-footer h4 {
     font-size: 18px;
     color: #e2bc3b;
     margin: 0;
-    margin-bottom: 14px; }
-  .main-footer .border {
+    margin-bottom: 14px;
+}
+
+.main-footer .border {
     display: inline-block;
     border-bottom: 1px solid #e2bc3b;
-    padding-bottom: 10px; }
-  .main-footer .social li {
-    display: inline-block; }
-    .main-footer .social li a {
-      display: block;
-      height: 22px;
-      width: 22px;
-      border-radius: 50%;
-      line-height: 22px;
-      text-align: center;
-      color: #729f9d;
-      background: rgba(51, 51, 51, 0.35);
-      font-size: 13px;
-      margin: 0 2px; }
-  .main-footer ul {
+    padding-bottom: 10px;
+}
+
+.main-footer .social li {
+    display: inline-block;
+}
+
+.main-footer .social li a {
+    display: block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    line-height: 22px;
+    text-align: center;
+    color: #729f9d;
+    background: rgba(51, 51, 51, 0.35);
+    font-size: 13px;
+    margin: 0 2px;
+}
+
+.main-footer ul {
     list-style: none;
     padding: 0;
-    margin: 0; }
-    .main-footer ul a {
-      color: #bfbcbc; }
-  .main-footer .copy {
+    margin: 0;
+}
+
+.main-footer ul a {
+    color: #bfbcbc;
+}
+
+.main-footer .copy {
     text-align: center;
-    padding-bottom: 36px; }
+    padding-bottom: 36px;
+}

@@ -43,6 +43,98 @@ body {
     padding-bottom: 20px;
 }
 
+/*=======================Menu Css Start========================*/
+
+.main-menu > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+
+.main-menu a {
+    color: #0c3a55;
+    display: block;
+    font-family: ubuntu;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 27px;
+    padding-top: 33px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.main-menu a:hover {
+    color: #AC9A53;
+}
+
+.main-menu li ul {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 0;
+    padding: 5px 20px;
+    position: absolute;
+    top: 115px;
+    width: 250px;
+    z-index: 10;
+    transition: 0.5s all ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 89px;
+}
+
+.main-menu li ul li {
+    margin: 0;
+    display: block;
+}
+
+.main-menu li ul li a {
+    padding: 10px 0;
+}
+
+
+/*Responsive Menu*/
+
+.sgs-responsive-menu {
+    display: block;
+}
+
+.main-menu {
+    display: none;
+}
+
+.sgs-responsive-menu .slicknav_menu {
+    background: none;
+    padding-top: 30px;
+}
+
+.sgs-responsive-menu .slicknav_nav a {
+    color: #0c3a55
+}
+
+@media (min-width: 768px) {
+
+    .sgs-responsive-menu {
+        display: none;
+    }
+    .main-menu {
+        display: block;
+    }
+}
+
+
+
+
+
 /*================ Banner ================*/
 
 .banner {
