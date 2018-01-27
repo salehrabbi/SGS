@@ -225,6 +225,66 @@ body {
     }
 }
 
+/*================ Reviews ================*/
+
+.reviwes {
+    background: url(../images/car.png) #907e35;
+    background-size: cover;
+    padding: 70px 0 105px;
+    .container {
+        &:before {
+            content: "";
+            background: url(../images/quote.png) no-repeat;
+            position: absolute;
+            height: 118px;
+            width: 147px;
+            left: 0;
+            top: 50%;
+            margin-top: -59px;
+        }
+    }
+    .head {
+        h2 {
+            color: #fff;
+            margin-bottom: 50px;
+            text-align: left;
+        }
+    }
+    .item {
+        p {
+            color: #fff;
+            font-size: 26px;
+            line-height: 1.35;
+        }
+        footer {
+            h4 {
+                margin: 0;
+                font-size: 19px;
+                color: #000;
+                margin-bottom: 7px;
+                margin-top: 23px;
+            }
+            p {
+                font-size: 12px;
+                color: #000;
+            }
+        }
+    }
+    .carousel-indicators li {
+        height: 12px;
+        width: 12px;
+        border: none;
+        background: #fff;
+        margin: 0 5px;
+    }
+    .carousel-indicators .active {
+        background-color: #e2bc3b;
+    }
+    .carousel-indicators {
+        bottom: -34px;
+    }
+}
+
 /*================ Step-work ================*/
 
 .step-work {
