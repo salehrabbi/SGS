@@ -428,7 +428,7 @@ body {
 
 /*================ About Page ================*/
 
-#about-page {
+#page {
     .banner {
         background: #235f5e;
         .container {
@@ -455,26 +455,28 @@ body {
         .head {
             margin-bottom: 15px;
         }
-        .content{
+        .content {
             margin: 35px 0;
         }
     }
-    .service-request{
-        background: #dcaf30;
-        padding-top: 40px;
-        padding-bottom: 30px;
-        margin-bottom: 55px;
-        p{
-            font-size: 29px;
-            line-height: 1.28;
-        }
-        .btn{
-            font-size: 30px;
-            color: #fff;
-            border: 1px solid #fff;
-            border-radius: 0;
-            padding: 6px 37px;
-            margin-top: 8px;
-        }
+
+}
+
+.service-request {
+    background: #dcaf30;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 55px;
+    p {
+        font-size: 29px;
+        line-height: 1.28;
+    }
+    .btn {
+        font-size: 30px;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 0;
+        padding: 6px 37px;
+        margin-top: 8px;
     }
 }
