@@ -74,7 +74,10 @@
     max-width: 300px; }
 
   .portfolio .title h2 {
-    text-align: center; } }
+    text-align: center; }
+
+  #mail-send #banner-background {
+    background-image: none; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -122,4 +125,13 @@
     padding-top: 35px; }
 
   #banner-background {
-    background-image: none; } }
+    background-image: none; }
+
+  .hand {
+    display: none; }
+
+  .request-send p {
+    font-size: 23px; }
+
+  .request-send {
+    padding-bottom: 50px; } }

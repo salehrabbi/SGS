@@ -84,6 +84,9 @@
     .portfolio .title h2 {
         text-align: center;
     }
+    #mail-send #banner-background {
+	background-image: none;
+}
 }
 
 @media (max-width:575px) {
@@ -135,4 +138,13 @@
     #banner-background {
         background-image: none;
     }
+    .hand{
+        display: none;
+    }
+    .request-send p {
+	font-size: 23px;
+}
+    .request-send {
+	padding-bottom: 50px;
+}
 }

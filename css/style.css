@@ -395,3 +395,27 @@ body {
       text-decoration: none;
       display: block;
       margin-top: 17px; }
+
+/*================ Mail Page ================*/
+#mail-send #banner-background {
+  background-image: url(../images/video-hand-bg.png); }
+
+.brouse-service {
+  background: #e2bc3b;
+  padding-top: 40px;
+  margin-bottom: 70px; }
+  .brouse-service .content-wraper {
+    margin-bottom: 0; }
+
+.request-send {
+  padding-bottom: 140px; }
+  .request-send h2 {
+    margin-bottom: 65px; }
+  .request-send p {
+    font-size: 29px;
+    line-height: 1.24; }
+  .request-send h4 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 15px; }
