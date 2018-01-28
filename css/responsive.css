@@ -55,10 +55,10 @@
   .logo-wraper {
     position: absolute; }
 
-  #about-page .service-request p {
+  .page .service-request p {
     font-size: 21px; }
 
-  #about-page .service-request .btn {
+  .page .service-request .btn {
     font-size: 22px; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
@@ -100,8 +100,8 @@
   .video {
     background-position: center; }
 
-  #about-page .banner h2 {
+  .page .banner h2 {
     font-size: 46px; }
 
-  #about-page .banner-bootom h2 {
-    padding-bottom: 35px; } }
+  .page .head h2 {
+    padding-top: 35px; } }

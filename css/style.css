@@ -331,11 +331,11 @@ body {
     padding-bottom: 36px; }
 
 /*================ About Page ================*/
-#page .banner {
+.page .banner {
   background: #235f5e; }
-  #page .banner .container {
+  .page .banner .container {
     min-height: 215px; }
-  #page .banner h2 {
+  .page .banner h2 {
     color: #fff;
     font-family: "TeX Gyre Adventor";
     font-size: 64px;
@@ -343,14 +343,16 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
     margin: 0; }
-#page .banner-bootom h2 {
+.page .banner-bootom h2 {
   word-break: keep-all;
-  padding-bottom: 60px; }
-#page .service {
+  padding-bottom: 0; }
+.page .head h2 {
+  padding-top: 60px; }
+.page .service {
   padding-top: 0; }
-  #page .service .head {
+  .page .service .head {
     margin-bottom: 15px; }
-  #page .service .content {
+  .page .service .content {
     margin: 35px 0; }
 
 .service-request {
@@ -368,3 +370,7 @@ body {
     border-radius: 0;
     padding: 6px 37px;
     margin-top: 8px; }
+
+/*================ Portfolio Page ================*/
+#portfolio-page .banner .container {
+  background: url(../images/port-bg.png) #235f5e no-repeat right; }
