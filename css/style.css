@@ -329,3 +329,41 @@ body {
   .main-footer .copy {
     text-align: center;
     padding-bottom: 36px; }
+
+/*================ About Page ================*/
+#about-page .banner {
+  background: #235f5e; }
+  #about-page .banner .container {
+    min-height: 215px; }
+  #about-page .banner h2 {
+    color: #fff;
+    font-family: "TeX Gyre Adventor";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin: 0; }
+#about-page .banner-bootom h2 {
+  word-break: keep-all;
+  padding-bottom: 60px; }
+#about-page .service {
+  padding-top: 0; }
+  #about-page .service .head {
+    margin-bottom: 15px; }
+  #about-page .service .content {
+    margin: 35px 0; }
+#about-page .service-request {
+  background: #dcaf30;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-bottom: 55px; }
+  #about-page .service-request p {
+    font-size: 29px;
+    line-height: 1.28; }
+  #about-page .service-request .btn {
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    padding: 6px 37px;
+    margin-top: 8px; }

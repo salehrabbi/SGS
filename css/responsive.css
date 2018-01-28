@@ -53,7 +53,13 @@
     font-size: 22px; }
 
   .logo-wraper {
-    position: absolute; } }
+    position: absolute; }
+
+  #about-page .service-request p {
+    font-size: 21px; }
+
+  #about-page .service-request .btn {
+    font-size: 22px; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -92,4 +98,10 @@
     top: 38%; }
 
   .video {
-    background-position: center; } }
+    background-position: center; }
+
+  #about-page .banner h2 {
+    font-size: 46px; }
+
+  #about-page .banner-bootom h2 {
+    padding-bottom: 35px; } }
