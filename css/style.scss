@@ -450,7 +450,7 @@ body {
             padding-bottom: 0;
         }
     }
-    .head h2{
+    .head h2 {
         padding-top: 60px;
     }
     .service {
@@ -483,30 +483,34 @@ body {
         margin-top: 8px;
     }
 }
+
 /*================ Portfolio Page ================*/
-#portfolio-page{
-    .banner .container{
-        background: url(../images/port-bg.png) #235f5e no-repeat right;
-    }
+
+#banner-background {
+    background: url(../images/port-bg.png) #235f5e no-repeat right;
 }
-.portfolio{
+
+.portfolio {
     padding: 75px 0 0 0;
-    .title{
-        h2{
+    .title {
+        h2 {
             margin: 0;
             padding-left: 10px;
             margin-bottom: 25px;
         }
     }
-    .content-wraper{
+    .content-wraper {
         margin-bottom: 50px;
+        .row{
+            margin: 0 -25px;
+        }
     }
-    .content{
+    .content {
         padding: 15px 25px;
-        img{
+        img {
             width: 100%;
         }
-        .link{
+        .link {
             font-size: 29px;
             color: #000;
             text-decoration: none;

@@ -37,7 +37,10 @@
     padding: 15px 15px; }
 
   .portfolio .title h2 {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .portfolio .content-wraper .row {
+    margin: 0 -15px; } }
 @media (max-width: 767px) {
   .banner .women-pic {
     display: none; }
@@ -118,5 +121,5 @@
   .page .head h2 {
     padding-top: 35px; }
 
-  #portfolio-page .banner .container {
+  #banner-background {
     background-image: none; } }

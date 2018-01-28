@@ -372,7 +372,7 @@ body {
     margin-top: 8px; }
 
 /*================ Portfolio Page ================*/
-#portfolio-page .banner .container {
+#banner-background {
   background: url(../images/port-bg.png) #235f5e no-repeat right; }
 
 .portfolio {
@@ -383,6 +383,8 @@ body {
     margin-bottom: 25px; }
   .portfolio .content-wraper {
     margin-bottom: 50px; }
+    .portfolio .content-wraper .row {
+      margin: 0 -25px; }
   .portfolio .content {
     padding: 15px 25px; }
     .portfolio .content img {

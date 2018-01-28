@@ -39,11 +39,14 @@
         min-height: 463px;
     }
     .portfolio .content {
-	padding: 15px 15px;
-}
+        padding: 15px 15px;
+    }
     .portfolio .title h2 {
-	padding-left: 0;
-}
+        padding-left: 0;
+    }
+    .portfolio .content-wraper .row {
+        margin: 0 -15px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -76,11 +79,11 @@
         font-size: 22px;
     }
     .portfolio .content img {
-	max-width: 300px;
-}
+        max-width: 300px;
+    }
     .portfolio .title h2 {
-	text-align: center;
-}
+        text-align: center;
+    }
 }
 
 @media (max-width:575px) {
@@ -129,7 +132,7 @@
     .page .head h2 {
         padding-top: 35px;
     }
-    #portfolio-page .banner .container {
-	background-image: none;
-}
+    #banner-background {
+        background-image: none;
+    }
 }
