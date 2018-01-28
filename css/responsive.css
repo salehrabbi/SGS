@@ -31,7 +31,13 @@
     background-position: 0; }
 
   .video .flex {
-    min-height: 463px; } }
+    min-height: 463px; }
+
+  .portfolio .content {
+    padding: 15px 15px; }
+
+  .portfolio .title h2 {
+    padding-left: 0; } }
 @media (max-width: 767px) {
   .banner .women-pic {
     display: none; }
@@ -59,7 +65,13 @@
     font-size: 21px; }
 
   .page .service-request .btn {
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  .portfolio .content img {
+    max-width: 300px; }
+
+  .portfolio .title h2 {
+    text-align: center; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -104,4 +116,7 @@
     font-size: 46px; }
 
   .page .head h2 {
-    padding-top: 35px; } }
+    padding-top: 35px; }
+
+  #portfolio-page .banner .container {
+    background-image: none; } }

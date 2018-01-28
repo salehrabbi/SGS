@@ -374,3 +374,22 @@ body {
 /*================ Portfolio Page ================*/
 #portfolio-page .banner .container {
   background: url(../images/port-bg.png) #235f5e no-repeat right; }
+
+.portfolio {
+  padding: 75px 0 0 0; }
+  .portfolio .title h2 {
+    margin: 0;
+    padding-left: 10px;
+    margin-bottom: 25px; }
+  .portfolio .content-wraper {
+    margin-bottom: 50px; }
+  .portfolio .content {
+    padding: 15px 25px; }
+    .portfolio .content img {
+      width: 100%; }
+    .portfolio .content .link {
+      font-size: 29px;
+      color: #000;
+      text-decoration: none;
+      display: block;
+      margin-top: 17px; }
