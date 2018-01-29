@@ -538,3 +538,25 @@ body {
 .text-field.focus textarea {
   height: 150px;
   background: rgba(0, 0, 0, 0.1); }
+
+/*================ Contact Page- Address section ================*/
+.contact-address {
+  padding-bottom: 60px; }
+  .contact-address i {
+    height: 50px;
+    width: 50px;
+    float: left;
+    line-height: 50px;
+    background: #e2bc3b;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 14px; }
+  .contact-address .text {
+    float: left;
+    width: calc(100% - 64px); }
+    .contact-address .text span {
+      display: block;
+      font-size: 20px;
+      line-height: 1.25; }
+      .contact-address .text span a {
+        color: #000; }
