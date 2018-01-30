@@ -881,7 +881,14 @@ body {
         padding: 5px\9;
     }
 }
-
+.video-form{
+    .submit{
+        color: #e2bc3b;
+        font-size: 30px;
+        padding: 0 80px;
+        border: 1px solid #000;
+    } 
+}
 .video-reviews {
     background: #fff;
     padding-top: 20px;
@@ -903,19 +910,33 @@ body {
         float: right;
     }
 }
-.video-inner{
+
+.video-inner {
     background-image: url(../images/inner-page-video-bg.png);
     background-color: #235f5e;
 }
-.video-banner-text{
+
+.video-banner-text {
     padding: 65px 0;
-    .head{
-        h2{
+    .head {
+        h2 {
             font-size: 47px;
             padding: 0;
         }
     }
-    h2{
+    h2 {
         padding-top: 27px;
+    }
+}
+
+.banner {
+    h2 {
+        span {
+            color: #e2bc3b;
+            font-size: 32px;
+            display: block;
+            line-height: 0;
+            margin-bottom: 6px;
+        }
     }
 }
