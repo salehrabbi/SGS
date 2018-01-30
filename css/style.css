@@ -523,7 +523,7 @@ body {
   border: none;
   padding: 0 .9375rem;
   letter-spacing: 1px;
-  font-size: 1.25rem;
+  font-size: 17px;
   background: rgba(255, 255, 255, 0.08); }
 
 .text-field textarea {
@@ -532,9 +532,11 @@ body {
   transition: height 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   padding: .9375rem; }
 
+/*
 .text-field:not(.focus) textarea {
-  font-size: 0; }
-
+	font-size: 16px;
+}
+*/
 .text-field.focus textarea {
   height: 150px;
   background: rgba(0, 0, 0, 0.1); }
