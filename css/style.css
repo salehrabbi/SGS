@@ -612,7 +612,8 @@ body {
       text-decoration: none;
       display: block;
       white-space: nowrap;
-      position: relative; }
+      position: relative;
+      outline: 0; }
       .video-type .type-button a:before {
         content: "";
         position: absolute;
@@ -680,7 +681,10 @@ body {
   appearance: none;
   background: url(../images/arrow.png) right no-repeat;
   margin: 10px 0;
-  outline: none; }
+  outline: none;
+  color: #000;
+  color: transparent;
+  text-shadow: 0 0 0 #000; }
 
 .video-select-type::-ms-expand {
   display: none; }

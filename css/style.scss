@@ -782,6 +782,7 @@ body {
             display: block;
             white-space: nowrap;
             position: relative;
+            outline: 0;
             &:before {
                 content: "";
                 position: absolute;
@@ -867,6 +868,9 @@ body {
     background: url(../images/arrow.png) right no-repeat;
     margin: 10px 0;
     outline: none;
+    color: #000;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #000;
 }
 
 
@@ -881,15 +885,17 @@ body {
         padding: 5px\9;
     }
 }
-.video-form{
+
+.video-form {
     padding-bottom: 50px;
-    .submit{
+    .submit {
         color: #e2bc3b;
         font-size: 30px;
         padding: 0 80px;
         border: 1px solid #000;
-    } 
+    }
 }
+
 .video-reviews {
     background: #fff;
     padding-top: 20px;
