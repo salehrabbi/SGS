@@ -860,6 +860,7 @@ body {
     appearance: none;
     background: url(../images/arrow.png) right no-repeat;
     margin: 10px 0;
+    outline: none;
 }
 
 
@@ -873,14 +874,4 @@ body {
         background: none\9;
         padding: 5px\9;
     }
-}
-.video-form {
-    transition: opacity 1s ease-out;
-    opacity: 0; 
-    height: 0;
-    overflow: hidden;
-}
-.show-form{
-    opacity: 1;
-    height: auto;
 }
