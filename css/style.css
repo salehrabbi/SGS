@@ -632,16 +632,19 @@ body {
       border-radius: 50%;
       margin-top: -8px; }
 
-.videos-item, .form-padding {
+.videos-item,
+.form-padding {
   padding: 30px 25px; }
 
-.vides-wraper, .form-padding-wraper {
+.vides-wraper,
+.form-padding-wraper {
   margin: 0 -25px; }
 
 .video-form {
   padding-top: 25px;
   padding-bottom: 0; }
-  .video-form .textarea, .video-form .send {
+  .video-form .textarea,
+  .video-form .send {
     margin-top: -64px; }
 
 .detailes-video {
@@ -686,3 +689,30 @@ body {
   .video-select-type {
     background: none\9;
     padding: 5px\9; } }
+.video-reviews {
+  background: #fff;
+  padding-top: 20px; }
+  .video-reviews .item p,
+  .video-reviews .head h2 {
+    color: #000; }
+  .video-reviews .carousel-indicators li {
+    background: #000; }
+  .video-reviews .item footer p {
+    display: block;
+    float: right;
+    clear: both; }
+  .video-reviews .item footer h4 {
+    display: block;
+    float: right; }
+
+.video-inner {
+  background-image: url(../images/inner-page-video-bg.png);
+  background-color: #235f5e; }
+
+.video-banner-text {
+  padding: 65px 0; }
+  .video-banner-text .head h2 {
+    font-size: 47px;
+    padding: 0; }
+  .video-banner-text h2 {
+    padding-top: 27px; }

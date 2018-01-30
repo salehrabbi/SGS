@@ -1,3 +1,14 @@
+//Text of those video form=======
+var $title = ["2D Animation", "3D Animation", "Whiteboard"];
+var $day = ["7", "8", "9"];
+var $minute = ["0 - 1 minute", "0 - 2 minute", "0 - 3 minute"];
+var $price = ["50000", "60000", "70000"];
+
+
+
+
+
+
 $(document).ready(function () {
 
     // SlickNavMobileMenu
@@ -80,10 +91,6 @@ $(".type-button-link-3").click(function () {
     $('.active-3').val("the_title_value3");
 });
 
-//Display block form ================
-$(".type-button a").click(function () {
-    $('.video-form').addClass("show-form")
-});
 
 
 
@@ -98,26 +105,26 @@ $('select').on('change', function () {
         $('.type-button-link-1').addClass("current");
         $('.type-button-link-2').removeClass("current");
         $('.type-button-link-3').removeClass("current");
-        $(".detailes-video h3").text("2D Animation");
-        $(".detailes-video .day").text("7");
-        $(".detailes-video .minute").text("0 - 1 minute");
-        $(".detailes-video .price").text("50,000");
+        $(".detailes-video h3").text($title[0]);
+        $(".detailes-video .day").text($day[0]);
+        $(".detailes-video .minute").text($minute[0]);
+        $(".detailes-video .price").text($price[0]);
     } else if (value == '3D Animation') {
         $('.type-button-link-1').removeClass("current");
         $('.type-button-link-2').addClass("current");
         $('.type-button-link-3').removeClass("current");
-        $(".detailes-video h3").text("3D Animation");
-        $(".detailes-video .day").text("8");
-        $(".detailes-video .minute").text("0 - 2 minute");
-        $(".detailes-video .price").text("60,000");
+        $(".detailes-video h3").text($title[1]);
+        $(".detailes-video .day").text($day[1]);
+        $(".detailes-video .minute").text($minute[1]);
+        $(".detailes-video .price").text($price[1]);
     } else if (value == 'Whiteboard') {
         $('.type-button-link-1').removeClass("current");
         $('.type-button-link-2').removeClass("current");
         $('.type-button-link-3').addClass("current");
-        $(".detailes-video h3").text("Whiteboard");
-        $(".detailes-video .day").text("9");
-        $(".detailes-video .minute").text("0 - 3 minute");
-        $(".detailes-video .price").text("70,000");
+        $(".detailes-video h3").text($title[2]);
+        $(".detailes-video .day").text($day[2]);
+        $(".detailes-video .minute").text($minute[2]);
+        $(".detailes-video .price").text($price[2]);
     }
 });
 
@@ -129,24 +136,28 @@ $('select').on('change', function () {
 
 
 //Text change of price and time==================
+$(".detailes-video h3").text($title[0]);
+$(".detailes-video .day").text($day[0]);
+$(".detailes-video .minute").text($minute[0]);
+$(".detailes-video .price").text($price[0]);
 
 $(".type-button-link-1").click(function () {
-    $(".detailes-video h3").text("2D Animation");
-    $(".detailes-video .day").text("7");
-    $(".detailes-video .minute").text("0 - 1 minute");
-    $(".detailes-video .price").text("50,000");
+    $(".detailes-video h3").text($title[0]);
+    $(".detailes-video .day").text($day[0]);
+    $(".detailes-video .minute").text($minute[0]);
+    $(".detailes-video .price").text($price[0]);
 });
 
 $(".type-button-link-2").click(function () {
-    $(".detailes-video h3").text("3D Animation");
-    $(".detailes-video .day").text("8");
-    $(".detailes-video .minute").text("0 - 2 minute");
-    $(".detailes-video .price").text("60,000");
+    $(".detailes-video h3").text($title[1]);
+    $(".detailes-video .day").text($day[1]);
+    $(".detailes-video .minute").text($minute[1]);
+    $(".detailes-video .price").text($price[1]);
 });
 
 $(".type-button-link-3").click(function () {
-    $(".detailes-video h3").text("Whiteboard");
-    $(".detailes-video .day").text("9");
-    $(".detailes-video .minute").text("0 - 3 minute");
-    $(".detailes-video .price").text("70,000");
+    $(".detailes-video h3").text($title[2]);
+    $(".detailes-video .day").text($day[2]);
+    $(".detailes-video .minute").text($minute[2]);
+    $(".detailes-video .price").text($price[2]);
 });
