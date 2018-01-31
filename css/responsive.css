@@ -47,7 +47,17 @@
     font-size: 15px;
     line-height: 1.25; }
     .contact-address .text span br {
-      display: none; } }
+      display: none; }
+
+  .video-type .type-button a {
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: left; }
+
+  .detailes-video h3 {
+    font-size: 26px;
+    padding: 7px 0;
+    min-height: 45px; } }
 @media (max-width: 767px) {
   .banner .women-pic {
     display: none; }
@@ -86,11 +96,46 @@
   #mail-send #banner-background {
     background-image: none; }
 
-  .contact .form-left, .contact .form-right {
+  .contact .form-left,
+  .contact .form-right {
     max-width: 100%; }
 
   .contact-address .phone {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+
+  .video-banner-text .head h2 {
+    font-size: 38px; }
+
+  .video-type .head h2 {
+    font-size: 32px;
+    margin-bottom: 10px; }
+
+  .videos-item {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 15px; }
+
+  .video-type {
+    padding-bottom: 25px; }
+
+  .form-padding {
+    padding: 0 15px; }
+
+  .video-form .textarea,
+  .video-form .send {
+    margin-top: 0; }
+
+  .video-form {
+    padding-top: 60px; }
+
+  .video-inner h2 {
+    font-size: 33px;
+    position: absolute;
+    top: 47px;
+    left: 0;
+    padding: 0 15px; }
+    .video-inner h2 br {
+      display: none; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -147,4 +192,7 @@
     font-size: 23px; }
 
   .request-send {
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+
+  .vides-wraper, .form-padding-wraper {
+    margin: 0 -15px; } }
