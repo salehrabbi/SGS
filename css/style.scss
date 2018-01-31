@@ -893,6 +893,10 @@ body {
         font-size: 30px;
         padding: 0 80px;
         border: 1px solid #000;
+        transition: .5s;
+        &:hover{
+            background: #276b68;
+        }
     }
 }
 
@@ -921,6 +925,10 @@ body {
 .video-inner {
     background-image: url(../images/inner-page-video-bg.png);
     background-color: #235f5e;
+    .play {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 .video-banner-text {
