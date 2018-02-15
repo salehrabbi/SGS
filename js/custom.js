@@ -160,9 +160,6 @@ $(".type-button-link-3").click(function () {
 
 
 
-
-
-
 //Text of those ecommerce form=======
 var $title2 = ["Online Store", "MarketPlace"];
 var $day2 = ["6", "8"];
@@ -226,71 +223,70 @@ $(".type-button-link-2").click(function () {
 
 
 //Text of those ecommerce form=======
-var $title3 = ["Android", "iOS", "Android & iOS"];
-var $day3 = ["6", "8", "9"];
-var $minute3 = ["YES", "NO", "YES"];
-var $price3 = ["50000", "60000", "70000"];
+var $title3 = [".app-detailes .title", ".app-detailes .title1", ".app-detailes .title2", ".app-detailes .title3"];
+var $day3 = [".app-detailes .day", ".app-detailes .day1", ".app-detailes .day2", ".app-detailes .day3"];
+var $minute3 = [".app-detailes .minute", ".app-detailes .minute1", ".app-detailes .minute2", ".app-detailes .minute3"];
+var $price3 = [".app-detailes .price", ".app-detailes .price1", ".app-detailes .price2", ".app-detailes .price3"];
 
-//Class of those ecommerce form=======
-var $class3 = [".app-detailes h3", ".app-detailes .day", ".app-detailes .minute", ".app-detailes .price"];
+
 
 //change the text by use dropdown =================
 
 
 
 $('select').on('change', function () {
-    var value = $(this).find(':selected').text();
-    if (value == $title3[0]) {
+    var value = $(this).find(':selected').val();
+    if (value == 'the_title_value1') {
         $('.type-button-link-1').addClass("current");
         $('.type-button-link-2').removeClass("current");
         $('.type-button-link-3').removeClass("current");
-        $($class3[0]).text($title3[0]);
-        $($class3[1]).text($day3[0]);
-        $($class3[2]).text($minute3[0]);
-        $($class3[3]).text($price3[0]);
-    } else if (value == $title3[1]) {
+        $($title3[0]).html($($title3[1]).text());
+        $($day3[0]).html($($day3[1]).text());
+        $($minute3[0]).html($($minute3[1]).text());
+        $($price3[0]).html($($price3[1]).text());
+    } else if (value == 'the_title_value2') {
         $('.type-button-link-1').removeClass("current");
         $('.type-button-link-2').addClass("current");
         $('.type-button-link-3').removeClass("current");
-        $($class3[0]).text($title3[1]);
-        $($class3[1]).text($day3[1]);
-        $($class3[2]).text($minute3[1]);
-        $($class3[3]).text($price3[1]);
-    } else if (value == $title3[2]) {
+        $($title3[0]).html($($title3[2]).text());
+        $($day3[0]).html($($day3[2]).text());
+        $($minute3[0]).html($($minute3[2]).text());
+        $($price3[0]).html($($price3[2]).text());
+    } else if (value == 'the_title_value3') {
         $('.type-button-link-1').removeClass("current");
         $('.type-button-link-2').removeClass("current");
         $('.type-button-link-3').addClass("current");
-        $($class3[0]).text($title3[2]);
-        $($class3[1]).text($day3[2]);
-        $($class3[2]).text($minute3[2]);
-        $($class3[3]).text($price3[2]);
+         $($title3[0]).html($($title3[3]).text());
+        $($day3[0]).html($($day3[3]).text());
+        $($minute3[0]).html($($minute3[3]).text());
+        $($price3[0]).html($($price3[3]).text());
     }
 });
 
 
 //Text change of price and time==================
-$($class3[0]).text($title3[0]);
-$($class3[1]).text($day3[0]);
-$($class3[2]).text($minute3[0]);
-$($class3[3]).text($price3[0]);
+$($title3[0]).html($($title3[1]).text());
+$($day3[0]).html($($day3[1]).text());
+$($minute3[0]).html($($minute3[1]).text());
+$($price3[0]).html($($price3[1]).text());
 
-$(".type-button-link-1").click(function () {
-    $($class3[0]).text($title3[0]);
-    $($class3[1]).text($day3[0]);
-    $($class3[2]).text($minute3[0]);
-    $($class3[3]).text($price3[0]);
-});
-
-$(".type-button-link-2").click(function () {
-    $($class3[0]).text($title3[1]);
-    $($class3[1]).text($day3[1]);
-    $($class3[2]).text($minute3[1]);
-    $($class3[3]).text($price3[1]);
-});
-
-$(".type-button-link-3").click(function () {
-    $($class3[0]).text($title3[2]);
-    $($class3[1]).text($day3[2]);
-    $($class3[2]).text($minute3[2]);
-    $($class3[3]).text($price3[2]);
+$(document).ready(function () {
+    $(".type-button-link-1").click(function () {
+        $($title3[0]).html($($title3[1]).text());
+        $($day3[0]).html($($day3[1]).text());
+        $($minute3[0]).html($($minute3[1]).text());
+        $($price3[0]).html($($price3[1]).text());
+    });
+    $(".type-button-link-2").click(function () {
+        $($title3[0]).html($($title3[2]).text());
+        $($day3[0]).html($($day3[2]).text());
+        $($minute3[0]).html($($minute3[2]).text());
+        $($price3[0]).html($($price3[2]).text());
+    });
+    $(".type-button-link-3").click(function () {
+        $($title3[0]).html($($title3[3]).text());
+        $($day3[0]).html($($day3[3]).text());
+        $($minute3[0]).html($($minute3[3]).text());
+        $($price3[0]).html($($price3[3]).text());
+    });
 });
