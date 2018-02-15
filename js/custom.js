@@ -50,22 +50,19 @@ $('.type-button a').on('click', function(){
 //Change the dropdown value===========
 
 $(".type-button-link-1").click(function () {
-    $('.video-select-type').addClass("active-1")
-    $('.video-select-type').removeClass("active-2")
-    $('.test').removeClass("active-3")
-    $('.active-1').val("the_title_value1");
+    $('.video-select-type.current').removeClass('.current');
+    $('.video-select-type').addClass('current');
+    $('.video-select-type.current').val("the_title_value1");
 });
 $(".type-button-link-2").click(function () {
-    $('.video-select-type').removeClass("active-1")
-    $('.video-select-type').addClass("active-2")
-    $('.test').removeClass("active-3")
-    $('.active-2').val("the_title_value2");
+    $('.video-select-type.current').removeClass('.current');
+    $('.video-select-type').addClass('current');
+    $('.video-select-type.current').val("the_title_value2");
 });
 $(".type-button-link-3").click(function () {
-    $('.video-select-type').removeClass("active-1")
-    $('.video-select-type').removeClass("active-2")
-    $('.video-select-type').addClass("active-3")
-    $('.active-3').val("the_title_value3");
+    $('.video-select-type.current').removeClass('.current');
+    $('.video-select-type').addClass('current');
+    $('.video-select-type.current').val("the_title_value3");
 });
 
 
