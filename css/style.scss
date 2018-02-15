@@ -1,6 +1,8 @@
 $f: 'Ubuntu',
 sans-serif;
 $t: 'TeX Gyre Adventor';
+$n:'Noto Sans',
+sans-serif;
 /*================ Universal Code ================*/
 
 body {
@@ -33,6 +35,11 @@ body {
         color: #102f46;
         text-align: center;
     }
+}
+
+.disply-flex {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 /*================ Header ================*/
@@ -869,8 +876,8 @@ body {
     margin: 10px 0;
     outline: none;
     color: #000;
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0 0 0 #000;
+    //    color: rgba(0, 0, 0, 0);
+    //    text-shadow: 0 0 0 #000;
 }
 
 
@@ -894,8 +901,9 @@ body {
         padding: 0 80px;
         border: 1px solid #000;
         transition: .5s;
-        &:hover{
+        &:hover {
             background: #276b68;
+            color: #fff;
         }
     }
 }
@@ -953,5 +961,57 @@ body {
             line-height: 0;
             margin-bottom: 6px;
         }
+    }
+}
+
+/*================ Ecommerce Page ================*/
+
+#ecommerce-page {
+    #banner-background {
+        background-image: url(../images/Ecommerce-banner-bg.png);
+    }
+    .video-type {
+        background: #fff;
+    }
+    .video-type .type-button a {
+        box-shadow: 0 0 5px #000;
+    }
+}
+.video-type{
+    .videos-item{
+        p{
+            text-align: center;
+            margin: 15px 0;
+            color: #000;
+            font-size: 26px;
+        }
+    }
+}
+/*================ Ecommerce store ================*/
+
+.ecommerce-store {
+    background: #235f5e;
+    padding: 30px 0;
+    font-family: $n;
+    color: #fff;
+    h3 {
+        margin: 0;
+        font-size: 43px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .disply-flex {
+        align-items: center;
+    }
+}
+
+.just-thumbnail {
+    img {
+        width: 100%;
     }
 }

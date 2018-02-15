@@ -65,6 +65,21 @@
         padding: 7px 0;
         min-height: 45px;
     }
+    .ecommerce-store h3 {
+        font-size: 41px;
+    }
+    .page .banner-bootom h2 {
+        br {
+            display: none;
+        }
+    }
+    .video-type .videos-item p {
+        font-size: 20px;
+    }
+    .vides-wraper,
+    .form-padding-wraper {
+        margin: 0 -24px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -151,6 +166,18 @@
             }
         }
     }
+    .page .banner .container {
+        background-image: none !important;
+    }
+    .ecommerce-store {
+        padding: 60px 0;
+    }
+    .ecommerce-store h3 {
+        margin-top: 30px;
+    }
+    .video-type .videos-item p {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width:575px) {
@@ -211,7 +238,14 @@
     .request-send {
         padding-bottom: 50px;
     }
-    .vides-wraper, .form-padding-wraper {
-	margin: 0 -15px;
-}
+    .vides-wraper,
+    .form-padding-wraper {
+        margin: 0 -15px;
+    }
+    .page .banner h2 {
+        font-size: 45px;
+    }
+    .ecommerce-store h3 {
+        font-size: 35px;
+    }
 }

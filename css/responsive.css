@@ -57,7 +57,20 @@
   .detailes-video h3 {
     font-size: 26px;
     padding: 7px 0;
-    min-height: 45px; } }
+    min-height: 45px; }
+
+  .ecommerce-store h3 {
+    font-size: 41px; }
+
+  .page .banner-bootom h2 br {
+    display: none; }
+
+  .video-type .videos-item p {
+    font-size: 20px; }
+
+  .vides-wraper,
+  .form-padding-wraper {
+    margin: 0 -24px; } }
 @media (max-width: 767px) {
   .banner .women-pic {
     display: none; }
@@ -135,7 +148,19 @@
     left: 0;
     padding: 0 15px; }
     .video-inner h2 br {
-      display: none; } }
+      display: none; }
+
+  .page .banner .container {
+    background-image: none !important; }
+
+  .ecommerce-store {
+    padding: 60px 0; }
+
+  .ecommerce-store h3 {
+    margin-top: 30px; }
+
+  .video-type .videos-item p {
+    margin-bottom: 0; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -194,5 +219,12 @@
   .request-send {
     padding-bottom: 50px; }
 
-  .vides-wraper, .form-padding-wraper {
-    margin: 0 -15px; } }
+  .vides-wraper,
+  .form-padding-wraper {
+    margin: 0 -15px; }
+
+  .page .banner h2 {
+    font-size: 45px; }
+
+  .ecommerce-store h3 {
+    font-size: 35px; } }
