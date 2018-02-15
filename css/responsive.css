@@ -70,7 +70,10 @@
 
   .vides-wraper,
   .form-padding-wraper {
-    margin: 0 -24px; } }
+    margin: 0 -24px; }
+
+  .app-style .disply-flex {
+    min-height: 320px; } }
 @media (max-width: 767px) {
   .banner .women-pic {
     display: none; }
@@ -160,7 +163,12 @@
     margin-top: 30px; }
 
   .video-type .videos-item p {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .videos-item {
+    margin-bottom: 85px; }
+    .videos-item:last-child {
+      margin-bottom: 0; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -227,4 +235,8 @@
     font-size: 45px; }
 
   .ecommerce-store h3 {
-    font-size: 35px; } }
+    font-size: 35px; }
+
+  .app-thumbnail .img-small {
+    width: 130px;
+    height: 130px; } }

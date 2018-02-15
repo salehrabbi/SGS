@@ -788,3 +788,44 @@ body {
 
 .just-thumbnail img {
   width: 100%; }
+
+/*================ app Page ================*/
+#app-page #banner-background {
+  background-image: url(../images/app-bg.png); }
+#app-page .video-type {
+  background: #fff;
+  padding-top: 70px; }
+#app-page .video-type .type-button a {
+  -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000; }
+
+.app-style {
+  background-image: url(../images/app-bg2.jpg);
+  background-size: cover; }
+  .app-style .disply-flex {
+    min-height: 565px; }
+
+.app-thumbnail {
+  position: relative; }
+  .app-thumbnail > img {
+    width: 100%; }
+  .app-thumbnail .img-small {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 10px solid #e2dede;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -32%; }

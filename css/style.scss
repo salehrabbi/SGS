@@ -875,8 +875,7 @@ body {
     background: url(../images/arrow.png) right no-repeat;
     margin: 10px 0;
     outline: none;
-    color: #000;
-    //    color: rgba(0, 0, 0, 0);
+    color: #000; //    color: rgba(0, 0, 0, 0);
     //    text-shadow: 0 0 0 #000;
 }
 
@@ -977,9 +976,10 @@ body {
         box-shadow: 0 0 5px #000;
     }
 }
-.video-type{
-    .videos-item{
-        p{
+
+.video-type {
+    .videos-item {
+        p {
             text-align: center;
             margin: 15px 0;
             color: #000;
@@ -987,6 +987,7 @@ body {
         }
     }
 }
+
 /*================ Ecommerce store ================*/
 
 .ecommerce-store {
@@ -1013,5 +1014,50 @@ body {
 .just-thumbnail {
     img {
         width: 100%;
+    }
+}
+
+/*================ app Page ================*/
+
+#app-page {
+    #banner-background {
+        background-image: url(../images/app-bg.png);
+    }
+    .video-type {
+        background: #fff;
+        padding-top: 70px;
+    }
+    .video-type .type-button a {
+        box-shadow: 0 0 5px #000;
+    }
+}
+
+.app-style {
+    background-image: url(../images/app-bg2.jpg);
+    background-size: cover;
+    .disply-flex {
+        min-height: 565px;
+    }
+}
+
+.app-thumbnail {
+    position: relative;
+    > img {
+        width: 100%;
+    }
+    .img-small {
+        width: 150px;
+        height: 150px;
+        background: #fff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid #e2dede;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -32%;
     }
 }
