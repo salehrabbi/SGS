@@ -42,23 +42,11 @@ $(document).ready(function () {
 
 //Active button of the title================
 
-$('.type-button-link-1').click(function () {
-    $(this).addClass("current");
-    $('.type-button-link-2').removeClass("current");
-    $('.type-button-link-3').removeClass("current");
+$('.type-button a').on('click', function(){
+    $('.type-button a.current').removeClass('current');
+    $(this).addClass('current');
 });
 
-$('.type-button-link-2').click(function () {
-    $(this).addClass("current");
-    $('.type-button-link-1').removeClass("current");
-    $('.type-button-link-3').removeClass("current");
-});
-
-$('.type-button-link-3').click(function () {
-    $(this).addClass("current");
-    $('.type-button-link-1').removeClass("current");
-    $('.type-button-link-2').removeClass("current");
-});
 //Change the dropdown value===========
 
 $(".type-button-link-1").click(function () {
