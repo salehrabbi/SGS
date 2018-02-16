@@ -3,6 +3,9 @@ sans-serif;
 $t: 'TeX Gyre Adventor';
 $n:'Noto Sans',
 sans-serif;
+a:hover{
+    text-decoration: none;
+}
 /*================ Universal Code ================*/
 
 body {
@@ -376,6 +379,7 @@ body {
             text-align: center;
             font-size: 30px;
             line-height: 1.27;
+            color: #000;
         }
     }
 }
@@ -488,6 +492,10 @@ body {
         border-radius: 0;
         padding: 6px 37px;
         margin-top: 8px;
+        transition: .5s;
+        &:hover{
+            background: #276B68;
+        }
     }
 }
 
@@ -499,7 +507,7 @@ body {
 
 .portfolio {
     padding: 75px 0 0 0;
-    .title {
+    .head-2 {
         h2 {
             margin: 0;
             padding-left: 10px;
@@ -678,6 +686,9 @@ body {
     .send {
         max-width: 303px;
     }
+}
+#contact-send{
+    margin-top: -26px;
 }
 
 .text-field button,

@@ -174,7 +174,10 @@
     margin-bottom: 50px; }
 
   .branding-baner {
-    background-image: none; } }
+    background-image: none; }
+
+  #contact-send {
+    margin-top: -60px; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
