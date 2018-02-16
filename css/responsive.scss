@@ -83,6 +83,12 @@
     .app-style .disply-flex {
         min-height: 320px;
     }
+    .video-type .border-text {
+        font-size: 24px;
+    }
+    #website-page .video-banner-text {
+        padding-bottom: 116px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -195,6 +201,9 @@
     }
     #contact-send {
         margin-top: -60px;
+    }
+    #website-page .ecommerce-store {
+        padding-bottom: 50px;
     }
 }
 

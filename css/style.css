@@ -642,16 +642,17 @@ body {
         top: 0;
         right: 0;
         background: #f5f3f1; }
-    .video-type .type-button a.current:after {
-      content: "";
-      position: absolute;
-      height: 16px;
-      width: 16px;
-      background: #276b68;
-      top: 50%;
-      right: 12px;
-      border-radius: 50%;
-      margin-top: -8px; }
+
+.videos-item.current .type-button a:after {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  background: #276b68;
+  top: 50%;
+  right: 12px;
+  border-radius: 50%;
+  margin-top: -8px; }
 
 .videos-item,
 .form-padding {
@@ -911,3 +912,28 @@ body {
 
 .soluation-banner {
   background-image: url(../images/soluation-bg-banner.jpg); }
+
+/*================ Website Page ================*/
+.page .video-type .type-button a {
+  -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000; }
+
+#website-page #banner-background {
+  background-image: url(../images/website-small-bg.png); }
+#website-page .video-type {
+  background: #fff; }
+#website-page .ecommerce-store {
+  padding-bottom: 0; }
+#website-page .video-banner-text {
+  padding-bottom: 160px; }
+
+.video-type .border-text {
+  font-size: 30px;
+  text-align: center;
+  border-top: 95px solid #276b68;
+  border-bottom: 12px solid #276b68;
+  -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
+  padding: 20px 10px; }
+.video-type .videos-item.current .border-text {
+  border-color: #e2bc3b; }
