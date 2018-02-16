@@ -168,7 +168,13 @@
   .videos-item {
     margin-bottom: 85px; }
     .videos-item:last-child {
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+
+  .branding-check {
+    margin-bottom: 50px; }
+
+  .branding-baner {
+    background-image: none; } }
 @media (max-width: 575px) {
   .banner .heading h1 {
     font: 34px/1.25 "TeX Gyre Adventor"; }
@@ -239,4 +245,7 @@
 
   .app-thumbnail .img-small {
     width: 130px;
-    height: 130px; } }
+    height: 130px; }
+
+  .branding-check label {
+    font-size: 20px; } }
