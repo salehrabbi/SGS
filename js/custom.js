@@ -147,3 +147,6 @@ $(document).ready(function () {
         $($price3[0]).html($($price3[3]).text());
     });
 });
+
+
+new WOW().init();
